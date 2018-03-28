@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg"
+    tools:context="com.example.aymen.splashactivity.MAIN_WIN">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:textSize="20.0dip"
+            android:id="@+id/Button1"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:text="CAPTURE NEW IMAGE"
+            android:drawableLeft="@drawable/cam" />
+        <Button
+            android:textSize="20.0dip"
+            android:id="@+id/Button2"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:text="OPEN FROM HISTORY FILES"
+            android:drawableLeft="@drawable/folder" />
+        <Button
+            android:textSize="20.0dip"
+            android:id="@+id/Button3" android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:text="Program Help"
+            android:drawableLeft="@drawable/help" />
+    </LinearLayout>
+</RelativeLayout>
